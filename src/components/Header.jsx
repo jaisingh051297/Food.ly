@@ -64,9 +64,10 @@ const Header = () => {
                         initial={{ opacity: 0, x: 200 }}
                         animate={{ opacity: 1, x: 0 }}
                         exit={{ opacity: 0, x: 200 }}
-                        className='flex items-center gap-8'>
+                        className='flex items-center gap-8'
+                    >
                         <li className='text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>
-                        <a href='#' onClick={() => setActiveHeader('#')} className={activeHeader === '#' ? 'active' : ''}>Home</a>
+                            <a href='#' onClick={() => setActiveHeader('#')} className={activeHeader === '#' ? 'active' : ''}>Home</a>
                         </li>    
                         <li className='text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>
                             <a href='#menu' onClick={() => setActiveHeader('#menu')} className={activeHeader === '#menu' ? 'active' : ''} >Menu</a>
@@ -161,19 +162,19 @@ const Header = () => {
                             <li className='text-base text-textColor hover:text-headingColor
                                  duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2'
                                 onClick={() =>setIsMenu(false)}
-                                ><Link to={"/home"}>Home</Link></li>
+                                ><Link to={"/#home"}>Home</Link></li>
                                 <li className='text-base text-textColor hover:text-headingColor 
                                 duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2'
                                 onClick={() =>setIsMenu(false)}
-                                ><Link to={"/menu"}>Menu</Link></li>
+                                ><Link to={"/#menu"}>Menu</Link></li>
                                 <li className='text-base text-textColor hover:text-headingColor
                                  duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2'
                                 onClick={() =>setIsMenu(false)}
-                                ><Link to={"/service"}>Service</Link></li>
+                                ><Link to={"/#service"}>Service</Link></li>
                                 <li className='text-base text-textColor hover:text-headingColor
                                  duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2'
                                 onClick={() =>setIsMenu(false)}
-                                ><Link to={"/about"}>About Us</Link> </li>
+                                ><Link to={"/#about"}>About Us</Link> </li>
                             </ul>
                             <p className='m-2 p-2 rounded-md shadow-md flex items-center justify-center
                              bg-gray-200 gap-3 cursor-pointer hover:bg-gray-300 

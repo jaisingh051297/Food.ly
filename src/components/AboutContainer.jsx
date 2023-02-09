@@ -1,7 +1,6 @@
 import React from 'react';
 import Delivery from '../img/delivery.png';
 import LOGO from '../img/Food.ly_Logo.png';
-import { heroData } from '../utils/data';
 
 const AboutContainer = () => {
     return (
@@ -24,14 +23,12 @@ const AboutContainer = () => {
                     About us <span className='text-orange-600 text-[3rem] lg:text-[5rem]'>Your City</span>
                 </p>
                 <p className='text-base text-gray-300 text-center  md:text-left md:w-[80%]'>
-                    The happiness 
-                    of people is our priority.
+                    The happiness of people is our priority.
                 </p>
                
             </div>
             <div className='py-2 flex-1 flex items-center relative'>
                 <img src={LOGO}
-                    className='ml-auto h-420 w-full lg:w-auto lg:h-650'
                     alt="hero-bg"
                 />
             </div>

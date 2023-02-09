@@ -24,8 +24,7 @@ const ServiceContainer = () => {
                     Services  <span className='text-orange-600 text-[3rem] lg:text-[5rem]'>Your City</span>
                 </p>
                 <p className='text-base text-gray-300 text-center  md:text-left md:w-[80%]'>
-                We’ll be at your front door in just a few minutes. The happiness 
-                    of people is our priority.
+                We’ll be at your front door in just a few minutes.
                 </p>
                 <button type='button'
                     className='bg-gradient-to-br from-orange-400 to-orange-500
@@ -35,7 +34,7 @@ const ServiceContainer = () => {
             </div>
             <div className='py-2 flex-1 flex items-center relative'>
                 <img src={LOGO}
-                    className='ml-auto h-420 w-full lg:w-auto lg:h-650'
+                    className='ml-auto h-420 lg:w-auto lg:h-650'
                     alt="hero-bg"
                 />
             </div>
